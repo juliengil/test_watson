@@ -1,0 +1,16 @@
+{
+  "name": "watson_tips",
+  "version": "1.0.0",
+  "description": "watson test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watson": "node watson.js $npm_config_file $npm_config_user $npm_config_password"
+  },
+  "author": "55 eng team",
+  "license": "ISC",
+  "dependencies": {
+    "rxjs": "5.0.0-beta.7",
+    "ws": "^1.1.1"
+  }
+}
